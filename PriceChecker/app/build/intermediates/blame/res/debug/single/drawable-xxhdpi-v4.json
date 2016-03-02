@@ -10,5 +10,9 @@
     {
         "merged": "/home/david.cara/Documents/VMShared/PriceChecker1/PriceChecker1/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_launcher.png",
         "source": "/home/david.cara/Documents/VMShared/PriceChecker1/PriceChecker1/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/david.cara/Documents/VMShared/AndroidApps/PriceChecker/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_launcher.png",
+        "source": "/home/david.cara/Documents/VMShared/AndroidApps/PriceChecker/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
     }
 ]
