@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SEGONS L'IDIOMA DEFINIT AL APARELL ES TRIARÀ UN O ALTRE -->
+<resources>
+
+    <string name="app_name">Price Checker</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="flash">Flash</string>
+    <string name="options">Opciones</string>
+    <string name="title_activity_sliding_menu">SlidingMenu</string>
+
+    <!-- OPCIONS DE LA DRAWER LIST -->
+    <string-array name="options_array">
+        <item>Mis escaneos</item>
+        <item>Ajustes</item>
+    </string-array>
+
+    <string name="title_activity_settings">Settings</string>
+
+</resources>

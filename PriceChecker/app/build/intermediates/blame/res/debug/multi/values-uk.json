@@ -1,0 +1,810 @@
+[
+    {
+        "outputFile": "/home/david.cara/Documents/VMShared/androidGit/PriceChecker/app/build/intermediates/res/merged/debug/values-uk/values-uk.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 61,
+                    "endOffset": 112
+                },
+                "from": {
+                    "file": "/home/david.cara/Documents/VMShared/androidGit/PriceChecker/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/values-uk/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 186,
+                        "endColumn": 61,
+                        "endOffset": 243
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 117,
+                    "endColumn": 55,
+                    "endOffset": 168
+                },
+                "from": {
+                    "file": "/home/david.cara/Documents/VMShared/androidGit/PriceChecker/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/values-uk/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 248,
+                        "endColumn": 55,
+                        "endOffset": 299
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 173,
+                    "endColumn": 46,
+                    "endOffset": 215
+                },
+                "from": {
+                    "file": "/home/david.cara/Documents/VMShared/androidGit/PriceChecker/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/values-uk/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 304,
+                        "endColumn": 46,
+                        "endOffset": 346
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 220,
+                    "endColumn": 71,
+                    "endOffset": 287
+                },
+                "from": {
+                    "file": "/home/david.cara/Documents/VMShared/androidGit/PriceChecker/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/values-uk/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 351,
+                        "endColumn": 71,
+                        "endOffset": 418
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 292,
+                    "endColumn": 62,
+                    "endOffset": 350
+                },
+                "from": {
+                    "file": "/home/david.cara/Documents/VMShared/androidGit/PriceChecker/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/values-uk/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 423,
+                        "endColumn": 62,
+                        "endOffset": 481
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 355,
+                    "endColumn": 74,
+                    "endOffset": 425
+                },
+                "from": {
+                    "file": "/home/david.cara/Documents/VMShared/androidGit/PriceChecker/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/values-uk/values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 486,
+                        "endColumn": 74,
+                        "endOffset": 556
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 430,
+                    "endColumn": 63,
+                    "endOffset": 489
+                },
+                "from": {
+                    "file": "/home/david.cara/Documents/VMShared/androidGit/PriceChecker/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/values-uk/values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 561,
+                        "endColumn": 63,
+                        "endOffset": 620
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 494,
+                    "endColumn": 61,
+                    "endOffset": 551
+                },
+                "from": {
+                    "file": "/home/david.cara/Documents/VMShared/androidGit/PriceChecker/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/values-uk/values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 625,
+                        "endColumn": 61,
+                        "endOffset": 682
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 556,
+                    "endColumn": 53,
+                    "endOffset": 605
+                },
+                "from": {
+                    "file": "/home/david.cara/Documents/VMShared/androidGit/PriceChecker/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/values-uk/values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 687,
+                        "endColumn": 53,
+                        "endOffset": 736
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 610,
+                    "endColumn": 74,
+                    "endOffset": 680
+                },
+                "from": {
+                    "file": "/home/david.cara/Documents/VMShared/androidGit/PriceChecker/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/values-uk/values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 741,
+                        "endColumn": 74,
+                        "endOffset": 811
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 685,
+                    "endColumn": 72,
+                    "endOffset": 753
+                },
+                "from": {
+                    "file": "/home/david.cara/Documents/VMShared/androidGit/PriceChecker/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/values-uk/values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 816,
+                        "endColumn": 72,
+                        "endOffset": 884
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 758,
+                    "endColumn": 52,
+                    "endOffset": 806
+                },
+                "from": {
+                    "file": "/home/david.cara/Documents/VMShared/androidGit/PriceChecker/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/values-uk/values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 889,
+                        "endColumn": 52,
+                        "endOffset": 937
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 811,
+                    "endColumn": 55,
+                    "endOffset": 862
+                },
+                "from": {
+                    "file": "/home/david.cara/Documents/VMShared/androidGit/PriceChecker/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/values-uk/values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 942,
+                        "endColumn": 55,
+                        "endOffset": 993
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 867,
+                    "endColumn": 141,
+                    "endOffset": 1004
+                },
+                "from": {
+                    "file": "/home/david.cara/Documents/VMShared/androidGit/PriceChecker/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/values-uk/values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 998,
+                        "endColumn": 141,
+                        "endOffset": 1135
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1009,
+                    "endColumn": 59,
+                    "endOffset": 1064
+                },
+                "from": {
+                    "file": "/home/david.cara/Documents/VMShared/androidGit/PriceChecker/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/values-uk/values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1140,
+                        "endColumn": 59,
+                        "endOffset": 1195
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1069,
+                    "endColumn": 59,
+                    "endOffset": 1124
+                },
+                "from": {
+                    "file": "/home/david.cara/Documents/VMShared/androidGit/PriceChecker/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/values-uk/values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1200,
+                        "endColumn": 59,
+                        "endOffset": 1255
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1129,
+                    "endColumn": 121,
+                    "endOffset": 1246
+                },
+                "from": {
+                    "file": "/home/david.cara/Documents/VMShared/androidGit/PriceChecker/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/values-uk/values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1260,
+                        "endColumn": 121,
+                        "endOffset": 1377
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1251,
+                    "endColumn": 54,
+                    "endOffset": 1301
+                },
+                "from": {
+                    "file": "/home/david.cara/Documents/VMShared/androidGit/PriceChecker/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/values-uk/values.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1382,
+                        "endColumn": 54,
+                        "endOffset": 1432
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1306,
+                    "endColumn": 54,
+                    "endOffset": 1356
+                },
+                "from": {
+                    "file": "/home/david.cara/Documents/VMShared/androidGit/PriceChecker/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/values-uk/values.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1437,
+                        "endColumn": 54,
+                        "endOffset": 1487
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1361,
+                    "endColumn": 106,
+                    "endOffset": 1463
+                },
+                "from": {
+                    "file": "/home/david.cara/Documents/VMShared/androidGit/PriceChecker/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/values-uk/values.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1492,
+                        "endColumn": 106,
+                        "endOffset": 1594
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1468,
+                    "endColumn": 78,
+                    "endOffset": 1542
+                },
+                "from": {
+                    "file": "/home/david.cara/Documents/VMShared/androidGit/PriceChecker/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/values-uk/values.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1599,
+                        "endColumn": 78,
+                        "endOffset": 1673
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/home/david.cara/Documents/VMShared/PriceChecker1/PriceChecker1/app/build/intermediates/res/merged/debug/values-uk/values-uk.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 61,
+                    "endOffset": 112
+                },
+                "from": {
+                    "file": "/home/david.cara/Documents/VMShared/PriceChecker1/PriceChecker1/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/values-uk/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 186,
+                        "endColumn": 61,
+                        "endOffset": 243
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 117,
+                    "endColumn": 55,
+                    "endOffset": 168
+                },
+                "from": {
+                    "file": "/home/david.cara/Documents/VMShared/PriceChecker1/PriceChecker1/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/values-uk/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 248,
+                        "endColumn": 55,
+                        "endOffset": 299
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 173,
+                    "endColumn": 46,
+                    "endOffset": 215
+                },
+                "from": {
+                    "file": "/home/david.cara/Documents/VMShared/PriceChecker1/PriceChecker1/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/values-uk/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 304,
+                        "endColumn": 46,
+                        "endOffset": 346
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 220,
+                    "endColumn": 71,
+                    "endOffset": 287
+                },
+                "from": {
+                    "file": "/home/david.cara/Documents/VMShared/PriceChecker1/PriceChecker1/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/values-uk/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 351,
+                        "endColumn": 71,
+                        "endOffset": 418
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 292,
+                    "endColumn": 62,
+                    "endOffset": 350
+                },
+                "from": {
+                    "file": "/home/david.cara/Documents/VMShared/PriceChecker1/PriceChecker1/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/values-uk/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 423,
+                        "endColumn": 62,
+                        "endOffset": 481
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 355,
+                    "endColumn": 74,
+                    "endOffset": 425
+                },
+                "from": {
+                    "file": "/home/david.cara/Documents/VMShared/PriceChecker1/PriceChecker1/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/values-uk/values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 486,
+                        "endColumn": 74,
+                        "endOffset": 556
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 430,
+                    "endColumn": 63,
+                    "endOffset": 489
+                },
+                "from": {
+                    "file": "/home/david.cara/Documents/VMShared/PriceChecker1/PriceChecker1/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/values-uk/values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 561,
+                        "endColumn": 63,
+                        "endOffset": 620
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 494,
+                    "endColumn": 61,
+                    "endOffset": 551
+                },
+                "from": {
+                    "file": "/home/david.cara/Documents/VMShared/PriceChecker1/PriceChecker1/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/values-uk/values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 625,
+                        "endColumn": 61,
+                        "endOffset": 682
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 556,
+                    "endColumn": 53,
+                    "endOffset": 605
+                },
+                "from": {
+                    "file": "/home/david.cara/Documents/VMShared/PriceChecker1/PriceChecker1/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/values-uk/values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 687,
+                        "endColumn": 53,
+                        "endOffset": 736
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 610,
+                    "endColumn": 74,
+                    "endOffset": 680
+                },
+                "from": {
+                    "file": "/home/david.cara/Documents/VMShared/PriceChecker1/PriceChecker1/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/values-uk/values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 741,
+                        "endColumn": 74,
+                        "endOffset": 811
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 685,
+                    "endColumn": 72,
+                    "endOffset": 753
+                },
+                "from": {
+                    "file": "/home/david.cara/Documents/VMShared/PriceChecker1/PriceChecker1/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/values-uk/values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 816,
+                        "endColumn": 72,
+                        "endOffset": 884
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 758,
+                    "endColumn": 52,
+                    "endOffset": 806
+                },
+                "from": {
+                    "file": "/home/david.cara/Documents/VMShared/PriceChecker1/PriceChecker1/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/values-uk/values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 889,
+                        "endColumn": 52,
+                        "endOffset": 937
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 811,
+                    "endColumn": 55,
+                    "endOffset": 862
+                },
+                "from": {
+                    "file": "/home/david.cara/Documents/VMShared/PriceChecker1/PriceChecker1/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/values-uk/values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 942,
+                        "endColumn": 55,
+                        "endOffset": 993
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 867,
+                    "endColumn": 141,
+                    "endOffset": 1004
+                },
+                "from": {
+                    "file": "/home/david.cara/Documents/VMShared/PriceChecker1/PriceChecker1/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/values-uk/values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 998,
+                        "endColumn": 141,
+                        "endOffset": 1135
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1009,
+                    "endColumn": 59,
+                    "endOffset": 1064
+                },
+                "from": {
+                    "file": "/home/david.cara/Documents/VMShared/PriceChecker1/PriceChecker1/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/values-uk/values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1140,
+                        "endColumn": 59,
+                        "endOffset": 1195
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1069,
+                    "endColumn": 59,
+                    "endOffset": 1124
+                },
+                "from": {
+                    "file": "/home/david.cara/Documents/VMShared/PriceChecker1/PriceChecker1/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/values-uk/values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1200,
+                        "endColumn": 59,
+                        "endOffset": 1255
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1129,
+                    "endColumn": 121,
+                    "endOffset": 1246
+                },
+                "from": {
+                    "file": "/home/david.cara/Documents/VMShared/PriceChecker1/PriceChecker1/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/values-uk/values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1260,
+                        "endColumn": 121,
+                        "endOffset": 1377
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1251,
+                    "endColumn": 54,
+                    "endOffset": 1301
+                },
+                "from": {
+                    "file": "/home/david.cara/Documents/VMShared/PriceChecker1/PriceChecker1/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/values-uk/values.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1382,
+                        "endColumn": 54,
+                        "endOffset": 1432
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1306,
+                    "endColumn": 54,
+                    "endOffset": 1356
+                },
+                "from": {
+                    "file": "/home/david.cara/Documents/VMShared/PriceChecker1/PriceChecker1/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/values-uk/values.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1437,
+                        "endColumn": 54,
+                        "endOffset": 1487
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1361,
+                    "endColumn": 106,
+                    "endOffset": 1463
+                },
+                "from": {
+                    "file": "/home/david.cara/Documents/VMShared/PriceChecker1/PriceChecker1/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/values-uk/values.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1492,
+                        "endColumn": 106,
+                        "endOffset": 1594
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1468,
+                    "endColumn": 78,
+                    "endOffset": 1542
+                },
+                "from": {
+                    "file": "/home/david.cara/Documents/VMShared/PriceChecker1/PriceChecker1/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/values-uk/values.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1599,
+                        "endColumn": 78,
+                        "endOffset": 1673
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/david.cara/Documents/VMShared/PriceChecker1/PriceChecker1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/icona.gif",
+        "source": "/home/david.cara/Documents/VMShared/PriceChecker1/PriceChecker1/app/src/main/res/drawable-hdpi/icona.gif"
+    },
+    {
+        "merged": "/home/david.cara/Documents/VMShared/androidGit/PriceChecker/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_launcher.png",
+        "source": "/home/david.cara/Documents/VMShared/androidGit/PriceChecker/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/david.cara/Documents/VMShared/androidGit/PriceChecker/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/icona.gif",
+        "source": "/home/david.cara/Documents/VMShared/androidGit/PriceChecker/app/src/main/res/drawable-hdpi/icona.gif"
+    },
+    {
+        "merged": "/media/sf_VMShared/PriceChecker1/PriceChecker1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/icona.gif",
+        "source": "/media/sf_VMShared/PriceChecker1/PriceChecker1/app/src/main/res/drawable-hdpi/icona.gif"
+    },
+    {
+        "merged": "/media/sf_VMShared/PriceChecker1/PriceChecker1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_launcher.png",
+        "source": "/media/sf_VMShared/PriceChecker1/PriceChecker1/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/david.cara/Documents/VMShared/PriceChecker1/PriceChecker1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_launcher.png",
+        "source": "/home/david.cara/Documents/VMShared/PriceChecker1/PriceChecker1/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    }
+]

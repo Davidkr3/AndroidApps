@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/david.cara/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/home/david.cara/Documents/VMShared/androidGit/PriceChecker/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1_102575d6e48fa6029bf9038a0d5eff3fd1d0d3eb.jar" />
+    </item>
+    <item
+        jar="/home/david.cara/Documents/VMShared/androidGit/PriceChecker/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-legacy/2.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7eb68150c290a271a716675ebdfd176eac694124">
+        <dex dex="/home/david.cara/Documents/VMShared/androidGit/PriceChecker/app/build/intermediates/pre-dexed/debug/com.journeyapps-zxing-android-legacy-2.0.1_9632da6cf593a91e4077d0407f3acddcbafdaca2.jar" />
+    </item>
+    <item
+        jar="/home/david.cara/Documents/VMShared/androidGit/PriceChecker/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-integration/2.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d4d7d4290dc3f13bdb95a92b2377d78e66084dfa">
+        <dex dex="/home/david.cara/Documents/VMShared/androidGit/PriceChecker/app/build/intermediates/pre-dexed/debug/com.journeyapps-zxing-android-integration-2.0.1_dc373736b5ec4f363340345e086891e6f01a7c93.jar" />
+    </item>
+    <item
+        jar="/home/david.cara/Documents/VMShared/androidGit/PriceChecker/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/zxing/1.8.4/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="68ef1daf85c69fca8fddf7bbb947fc51cc9f8ca3">
+        <dex dex="/home/david.cara/Documents/VMShared/androidGit/PriceChecker/app/build/intermediates/pre-dexed/debug/me.dm7.barcodescanner-zxing-1.8.4_4a0071d254c4a456c275acde2ce8e00fa14a6190.jar" />
+    </item>
+    <item
+        jar="/home/david.cara/Documents/VMShared/androidGit/PriceChecker/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/home/david.cara/Documents/VMShared/androidGit/PriceChecker/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.1.1_963ce5e08e19c5d95608701bc25e66c84817ce94.jar" />
+    </item>
+    <item
+        jar="/home/david.cara/Documents/VMShared/androidGit/PriceChecker/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/home/david.cara/Documents/VMShared/androidGit/PriceChecker/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_11e6c6a96ae7501b088e7a24eb955773287ab101.jar" />
+    </item>
+    <item
+        jar="/home/david.cara/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.2.1/2287494d4f5f9f3a9a2bb6980e3f32053721b315/core-3.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="/home/david.cara/Documents/VMShared/androidGit/PriceChecker/app/build/intermediates/pre-dexed/debug/core-3.2.1_b2a71267012e3ff7ea10e1d801be5c6d95b94e34.jar" />
+    </item>
+    <item
+        jar="/home/david.cara/Documents/VMShared/androidGit/PriceChecker/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f38c1fe0ee3d0ef717e7f32131719fccf07fd6c7">
+        <dex dex="/home/david.cara/Documents/VMShared/androidGit/PriceChecker/app/build/intermediates/pre-dexed/debug/com.journeyapps-zxing-android-embedded-2.0.1_b5d0f4c6bcb0de5ba00d7af5a6a8e150d1aafb6d.jar" />
+    </item>
+    <item
+        jar="/home/david.cara/Documents/VMShared/androidGit/PriceChecker/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/core/1.8.4/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="af8d42f1f020e936b8cd9f5cb6c75993194895a3">
+        <dex dex="/home/david.cara/Documents/VMShared/androidGit/PriceChecker/app/build/intermediates/pre-dexed/debug/me.dm7.barcodescanner-core-1.8.4_eed2ac5d2b422b9b4063d53931d004567a1a7cd8.jar" />
+    </item>
+
+</items>

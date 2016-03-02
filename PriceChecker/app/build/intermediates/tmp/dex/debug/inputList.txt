@@ -1,0 +1,4 @@
+/Users/davidcara/Dropbox/workspace/PriceChecker1/app/build/intermediates/classes/debug
+/Users/davidcara/Dropbox/workspace/PriceChecker1/app/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-a9099314faa359c571ce152e4935f9258a933c71.jar
+/Users/davidcara/Dropbox/workspace/PriceChecker1/app/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-cd0b546d626eb2bf2f97744fe63dfc94bb318318.jar
+/Users/davidcara/Dropbox/workspace/PriceChecker1/app/build/intermediates/pre-dexed/debug/classes-c34a1b284f744910d88f863c728ad5acadc75613.jar
