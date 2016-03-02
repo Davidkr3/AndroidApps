@@ -24,20 +24,20 @@
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.FLASHLIGHT" />
 
-    <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+    <!-- Don't require myCamera, as this requires a rear myCamera. This allows it to work on the Nexus 7 -->
     <uses-feature
-        android:name="android.hardware.camera"
+        android:name="android.hardware.myCamera"
         android:required="false" />
     <uses-feature
-        android:name="android.hardware.camera.front"
+        android:name="android.hardware.myCamera.front"
         android:required="false" />
     <!-- TODO replace above two with next line after Android 4.2 -->
-    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+    <!-- <uses-feature android:name="android.hardware.myCamera.any"/> -->
     <uses-feature
-        android:name="android.hardware.camera.autofocus"
+        android:name="android.hardware.myCamera.autofocus"
         android:required="false" />
     <uses-feature
-        android:name="android.hardware.camera.flash"
+        android:name="android.hardware.myCamera.flash"
         android:required="false" />
     <uses-feature
         android:name="android.hardware.screen.landscape"
@@ -45,7 +45,7 @@
     <uses-feature
         android:name="android.hardware.wifi"
         android:required="false" />
-    <!-- TODO make this not required again after android.hardware.camera.any is available -->
+    <!-- TODO make this not required again after android.hardware.myCamera.any is available -->
 
 
     <!-- Donut-specific flags which allow us to run on any dpi screens. -->

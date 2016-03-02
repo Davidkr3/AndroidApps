@@ -8,7 +8,7 @@ import android.content.DialogInterface;
  * Created by david.cara on 3/2/16.
  */
 public class utils {
-    public void makeInfoAlert(String alert, Activity activity)
+    public static void makeInfoAlert(String alert, Activity activity)
     {
         //Enviem el missatge dient que 's'ha inserit correctament
         new AlertDialog.Builder(activity) //ens trobem en una funció de un botó, especifiquem la classe (no this)

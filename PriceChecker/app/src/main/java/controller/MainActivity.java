@@ -21,15 +21,15 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
-import com.google.zxing.Result;
-import me.dm7.barcodescanner.zxing.ZXingScannerView;
+
 import model.DataBase;
 import model.DrawerItemClickListener;
 import uab.tfg.pricechecker.R;
+import utils.MyCamera;
 
-public class MainActivity extends Activity implements ZXingScannerView.ResultHandler {
+public class MainActivity extends Activity {
 ////////ELEMENTS DELS QUE DISPOSAREM/////////////////
-    private utils.Camera camera = new utils.Camera();
+    private MyCamera myCamera = new MyCamera();
     private DrawerLayout mDrawerLayout;
     private ListView mDrawerList;
     private String[] options;
@@ -38,8 +38,6 @@ public class MainActivity extends Activity implements ZXingScannerView.ResultHan
     //DB
     DataBase prodDbHelper = null;
     SQLiteDatabase prodDb = null;
-    //scan
-    private ZXingScannerView mScannerView;
 	 
 @Override
 protected void onCreate(Bundle savedInstanceState) {
@@ -51,8 +49,8 @@ protected void onCreate(Bundle savedInstanceState) {
     //inicialitzem el drawer layout
     this.initializeDrawerLayout();
     //inicialitzem la c�mera i la seva vista
-    camera.initializeCamera(this);
-    camera.setCameraParameters();
+    myCamera.initializeCamera(this);
+    myCamera.setCameraParameters();
     prodDbHelper = new DataBase(getApplicationContext());
     prodDb = prodDbHelper.getWritableDatabase();
 }
@@ -68,23 +66,23 @@ protected void onCreate(Bundle savedInstanceState) {
     public void onResume() {
         super.onResume();  // Sempre cridem el m�tode del pare primer
         //cada cop que tornem a la app configurarem la c�mera
-        if (camera.GetCamera() == null) {
-            camera.initializeCamera(this);
-            camera.setCameraParameters();
+        if (myCamera.GetCamera() == null) {
+            myCamera.initializeCamera(this);
+            myCamera.setCameraParameters();
         }
     }
 	
     @Override
     public void onPause(){
         super.onPause();
-        camera.releaseCamera(); //parem la c�mera perqupe la puguin fer servir altres app
+        myCamera.releaseCamera(); //parem la c�mera perqupe la puguin fer servir altres app
     }
 	
     @Override
     public void onBackPressed(){ //pitjar el bot� "enrere" �s diferent de onPause()->(home)
         //quan pitgem bot� enrere
         super.onBackPressed(); //afegim funcions a la funci� "per defecte"
-        camera.releaseCamera();
+        myCamera.releaseCamera();
     }
 
 ////////////////////////////////////////////////////////
@@ -101,10 +99,10 @@ public void initializeButtons(){
 
     public Button.OnClickListener clickFlash = new Button.OnClickListener() {
         public void onClick(View v) {
-            if(camera.isFlashON()==false){ //si el flaix ja est� enc�s, l'apaguem
-                camera.flashON();
+            if(myCamera.isFlashON()==false){ //si el flaix ja est� enc�s, l'apaguem
+                myCamera.flashON();
             }else{
-                camera.flashOFF();
+                myCamera.flashOFF();
             }
         }
     };
@@ -132,13 +130,6 @@ public void initializeButtons(){
         //simple_list_itm_1, �s un layout "prefabricat" que ve amb la API,
         //consistent en un  layout amb un text simple que requereix el ArrayAdapter
         mDrawerList.setOnItemClickListener(new DrawerItemClickListener());
-    }
-
-
-    //SCANNER//////////////////////
-    @Override
-    public void handleResult(Result result) {
-
     }
 
     //DB

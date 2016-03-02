@@ -3,7 +3,15 @@ package utils;
 import android.app.Activity;
 import android.content.Context;
 import android.content.pm.PackageManager;
+import android.hardware.Camera;
 import android.widget.FrameLayout;
+
+import com.google.zxing.BinaryBitmap;
+import com.google.zxing.LuminanceSource;
+import com.google.zxing.NotFoundException;
+import com.google.zxing.PlanarYUVLuminanceSource;
+import com.google.zxing.Result;
+import com.google.zxing.common.HybridBinarizer;
 
 import model.CameraPreview;
 import uab.tfg.pricechecker.R;
@@ -11,12 +19,12 @@ import uab.tfg.pricechecker.R;
 /**
  * Created by david.cara on 3/2/16.
  */
-public class Camera {
+public class MyCamera {
 
     private android.hardware.Camera mCamera;
     private CameraPreview mPreview;
 
-    public android.hardware.Camera GetCamera()
+    public Camera GetCamera()
     {
         return this.mCamera;
     }
@@ -55,7 +63,7 @@ public class Camera {
     }
 
     public void initializeCamera(Activity activity){
-        // Create an instance of Camera
+        // Create an instance of MyCamera
         //vigilar que no sigui null!!!!!!!!!!!!!!!!
         //SEMPRE CAL COMPROVAR O PETA
         boolean check = checkCameraHardware(activity);
@@ -78,7 +86,7 @@ public class Camera {
         }
     }
 
-    private static android.hardware.Camera getCameraInstance(){ //Camera: android hardware
+    private static android.hardware.Camera getCameraInstance(){ //MyCamera: android hardware
         android.hardware.Camera c = null;
         try {
             c = android.hardware.Camera.open(); // obtenim una inst�ncia de la c�mera
@@ -101,4 +109,5 @@ public class Camera {
             return false;
         }
     }
+
 }
