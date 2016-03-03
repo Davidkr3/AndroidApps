@@ -1,6 +1,6 @@
 package model;
 
-import android.annotation.SuppressLint;
+
 import android.app.AlertDialog;
 import android.content.Context;
 import android.hardware.Camera;
@@ -14,11 +14,11 @@ import com.google.zxing.MultiFormatReader;
 import com.google.zxing.NotFoundException;
 import com.google.zxing.PlanarYUVLuminanceSource;
 import com.google.zxing.Result;
+import com.google.zxing.client.android.camera.CameraManager;
 import com.google.zxing.common.HybridBinarizer;
 
 import java.io.IOException;
 
-@SuppressLint("ViewConstructor")
 public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback {
     private SurfaceHolder mHolder;
     private Camera mCamera;
@@ -26,6 +26,7 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
     private int mWidth, mHeight;
     private int mLeft, mTop, mAreaWidth, mAreaHeight;
     private AlertDialog mDialog;
+    private static CameraManager cameraManager;
 
     public CameraPreview(Context context, Camera camera) {
         super(context);
@@ -101,11 +102,9 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
             // TODO Auto-generated method stub
             if (mDialog.isShowing())
                 return;
+            LuminanceSource source = new PlanarYUVLuminanceSource(data, mWidth, mHeight, mLeft, mTop, mAreaWidth, mAreaHeight, true); //no horizontal -> true
 
-            LuminanceSource source = new PlanarYUVLuminanceSource(data, mWidth, mHeight, mLeft, mTop, mAreaWidth, mAreaHeight, false);
-            BinaryBitmap bitmap = new BinaryBitmap(new HybridBinarizer(
-                    source));
-
+            BinaryBitmap bitmap = new BinaryBitmap(new HybridBinarizer(source));
             try {
                 Result result = mMultiFormatReader.decode(bitmap, null);
                 if (result != null) {
@@ -122,6 +121,7 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
 
     public void setArea(int left, int top, int areaWidth, int width) {
         double ratio = (double) width / mWidth; //(double) TO SAVE DECIMALS. IMPORTANT!
+        //double ratio = (double) areaWidth / mWidth; //(double) TO SAVE DECIMALS. IMPORTANT!
         mLeft = (int) (left / (ratio + 1));
         mTop = (int) (top / (ratio + 1));
         mAreaWidth = mWidth - mLeft * 2;

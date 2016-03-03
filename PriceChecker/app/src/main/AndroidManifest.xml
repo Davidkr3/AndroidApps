@@ -37,10 +37,6 @@
             android:name="controller.SlidingMenu"
             android:label="@string/title_activity_sliding_menu" >
         </activity>
-        <activity
-            android:name="controller.Settings"
-            android:label="@string/title_activity_settings" >
-        </activity>
     </application>
 
 </manifest>

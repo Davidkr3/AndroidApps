@@ -20,10 +20,6 @@
         "source": "/home/david.cara/Documents/VMShared/AndroidApps/PriceChecker/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-legacy/2.0.1/res/layout/zxinglegacy_help.xml"
     },
     {
-        "merged": "/home/david.cara/Documents/VMShared/AndroidApps/PriceChecker/app/build/intermediates/res/merged/debug/layout/activity_settings.xml",
-        "source": "/home/david.cara/Documents/VMShared/AndroidApps/PriceChecker/app/src/main/res/layout/activity_settings.xml"
-    },
-    {
         "merged": "/home/david.cara/Documents/VMShared/androidGit/PriceChecker/app/build/intermediates/res/merged/debug/layout/zxing_help.xml",
         "source": "/home/david.cara/Documents/VMShared/androidGit/PriceChecker/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/2.0.1/res/layout/zxing_help.xml"
     },

@@ -16,10 +16,6 @@
         "source": "/home/david.cara/Documents/VMShared/PriceChecker1/PriceChecker1/app/src/main/res/menu/sliding_menu.xml"
     },
     {
-        "merged": "/home/david.cara/Documents/VMShared/AndroidApps/PriceChecker/app/build/intermediates/res/merged/debug/menu/settings.xml",
-        "source": "/home/david.cara/Documents/VMShared/AndroidApps/PriceChecker/app/src/main/res/menu/settings.xml"
-    },
-    {
         "merged": "/home/david.cara/Documents/VMShared/androidGit/PriceChecker/app/build/intermediates/res/merged/debug/menu/settings.xml",
         "source": "/home/david.cara/Documents/VMShared/androidGit/PriceChecker/app/src/main/res/menu/settings.xml"
     },
@@ -70,10 +66,6 @@
     {
         "merged": "/home/david.cara/Documents/VMShared/androidGit/PriceChecker/app/build/intermediates/res/merged/debug/menu/main.xml",
         "source": "/home/david.cara/Documents/VMShared/androidGit/PriceChecker/app/src/main/res/menu/main.xml"
-    },
-    {
-        "merged": "/home/david.cara/Documents/VMShared/AndroidApps/PriceChecker/app/build/intermediates/res/merged/debug/menu/sliding_menu.xml",
-        "source": "/home/david.cara/Documents/VMShared/AndroidApps/PriceChecker/app/src/main/res/menu/sliding_menu.xml"
     },
     {
         "merged": "/media/sf_VMShared/PriceChecker1/PriceChecker1/app/build/intermediates/res/merged/debug/menu/settings.xml",

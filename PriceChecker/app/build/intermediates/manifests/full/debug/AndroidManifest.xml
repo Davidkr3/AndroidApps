@@ -58,10 +58,6 @@
             android:label="@string/title_activity_sliding_menu" >
         </activity>
         <activity
-            android:name="controller.Settings"
-            android:label="@string/title_activity_settings" >
-        </activity>
-        <activity
             android:name="com.google.zxing.client.android.CaptureActivity"
             android:clearTaskOnLaunch="true"
             android:screenOrientation="sensorLandscape"
