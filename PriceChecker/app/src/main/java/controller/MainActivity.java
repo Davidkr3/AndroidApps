@@ -15,6 +15,7 @@ import android.content.ContentValues;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.support.v4.widget.DrawerLayout;
+import android.view.Display;
 import android.view.Gravity;
 import android.view.Menu;
 import android.view.View;
@@ -24,6 +25,7 @@ import android.widget.ListView;
 
 import model.DataBase;
 import model.DrawerItemClickListener;
+import model.HoverView;
 import uab.tfg.pricechecker.R;
 import utils.MyCamera;
 
@@ -36,10 +38,14 @@ public class MainActivity extends Activity {
     private Button flashButton;
     private Button optionsButton;
     //DB
-    DataBase prodDbHelper = null;
-    SQLiteDatabase prodDb = null;
-	 
-@Override
+    DataBase prodDbHelper;
+    SQLiteDatabase prodDb;
+    //scan view elements
+    HoverView mHoverView;
+    Display display;
+
+
+    @Override
 protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     //Associaci� del layout (vista xml)
@@ -49,8 +55,11 @@ protected void onCreate(Bundle savedInstanceState) {
     //inicialitzem el drawer layout
     this.initializeDrawerLayout();
     //inicialitzem la c�mera i la seva vista
-    myCamera.initializeCamera(this);
+    display = getWindowManager().getDefaultDisplay();
+    mHoverView = (HoverView)findViewById(R.id.hover_view);
+    myCamera.initializeCamera(this, mHoverView, display);
     myCamera.setCameraParameters();
+    //DB
     prodDbHelper = new DataBase(getApplicationContext());
     prodDb = prodDbHelper.getWritableDatabase();
 }
@@ -67,7 +76,7 @@ protected void onCreate(Bundle savedInstanceState) {
         super.onResume();  // Sempre cridem el m�tode del pare primer
         //cada cop que tornem a la app configurarem la c�mera
         if (myCamera.GetCamera() == null) {
-            myCamera.initializeCamera(this);
+            myCamera.initializeCamera(this, mHoverView, display);
             myCamera.setCameraParameters();
         }
     }

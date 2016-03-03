@@ -1,8 +1,7 @@
 package model;
 
-import java.io.IOException;
-
 import android.annotation.SuppressLint;
+import android.app.AlertDialog;
 import android.content.Context;
 import android.hardware.Camera;
 import android.util.Log;
@@ -17,6 +16,8 @@ import com.google.zxing.PlanarYUVLuminanceSource;
 import com.google.zxing.Result;
 import com.google.zxing.common.HybridBinarizer;
 
+import java.io.IOException;
+
 @SuppressLint("ViewConstructor")
 public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback {
     private SurfaceHolder mHolder;
@@ -24,8 +25,8 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
     private MultiFormatReader mMultiFormatReader;
     private int mWidth, mHeight;
     private int mLeft, mTop, mAreaWidth, mAreaHeight;
+    private AlertDialog mDialog;
 
-    @SuppressWarnings("deprecation")
     public CameraPreview(Context context, Camera camera) {
         super(context);
         mCamera = camera;
@@ -38,8 +39,12 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
         mHolder.setType(SurfaceHolder.SURFACE_TYPE_PUSH_BUFFERS);
         //scan
         mMultiFormatReader = new MultiFormatReader();
+
+        //BARCODE WIDTH
         mWidth = 640;
         mHeight = 480;
+
+        mDialog =  new AlertDialog.Builder(context).create();
     }
 
     public void surfaceCreated(SurfaceHolder holder) {
@@ -78,6 +83,9 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
 
         // start preview with new settings
         try {
+            //Scan
+            mCamera.setPreviewCallback(mPreviewCallback);
+            //
             mCamera.setPreviewDisplay(mHolder);
             mCamera.startPreview();
 
@@ -91,20 +99,19 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
         @Override
         public void onPreviewFrame(byte[] data, Camera myCamera) {
             // TODO Auto-generated method stub
-           // if (mDialog.isShowing())
-             //   return;
+            if (mDialog.isShowing())
+                return;
 
             LuminanceSource source = new PlanarYUVLuminanceSource(data, mWidth, mHeight, mLeft, mTop, mAreaWidth, mAreaHeight, false);
             BinaryBitmap bitmap = new BinaryBitmap(new HybridBinarizer(
                     source));
-            Result result;
 
             try {
-                result = mMultiFormatReader.decode(bitmap, null);
+                Result result = mMultiFormatReader.decode(bitmap, null);
                 if (result != null) {
-                  //  mDialog.setTitle("Result");
-                  //  mDialog.setMessage(result.getText());
-                    //mDialog.show();
+                    mDialog.setTitle("Result");
+                    mDialog.setMessage(result.getText());
+                    mDialog.show();
                 }
             } catch (NotFoundException e) {
                 // TODO Auto-generated catch block
@@ -112,5 +119,14 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
             }
         }
     };
+
+    public void setArea(int left, int top, int areaWidth, int width) {
+        double ratio = (double) width / mWidth; //(double) TO SAVE DECIMALS. IMPORTANT!
+        mLeft = (int) (left / (ratio + 1));
+        mTop = (int) (top / (ratio + 1));
+        mAreaWidth = mWidth - mLeft * 2;
+        //barcode height is different than width
+        mAreaHeight = mHeight - mTop * 2;
+    }
 
 }

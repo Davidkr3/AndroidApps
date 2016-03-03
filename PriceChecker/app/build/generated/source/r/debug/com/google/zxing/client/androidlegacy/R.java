@@ -29,33 +29,33 @@ public final class R {
 		public static final int zxinglegacy_standard_padding = 0x7f090005;
 	}
 	public static final class id {
-		public static final int format_text_view = 0x7f0c0029;
-		public static final int menu_encode = 0x7f0c003b;
-		public static final int menu_help = 0x7f0c0039;
-		public static final int menu_share = 0x7f0c003a;
-		public static final int meta_text_view_label = 0x7f0c002c;
+		public static final int format_text_view = 0x7f0c002a;
+		public static final int menu_encode = 0x7f0c003c;
+		public static final int menu_help = 0x7f0c003a;
+		public static final int menu_share = 0x7f0c003b;
+		public static final int meta_text_view_label = 0x7f0c002d;
 		public static final int zxinglegacy_back_button = 0x7f0c0008;
-		public static final int zxinglegacy_barcode_image_view = 0x7f0c0028;
-		public static final int zxinglegacy_contents_supplement_text_view = 0x7f0c002f;
-		public static final int zxinglegacy_contents_text_view = 0x7f0c002e;
+		public static final int zxinglegacy_barcode_image_view = 0x7f0c0029;
+		public static final int zxinglegacy_contents_supplement_text_view = 0x7f0c0030;
+		public static final int zxinglegacy_contents_text_view = 0x7f0c002f;
 		public static final int zxinglegacy_decode = 0x7f0c0009;
 		public static final int zxinglegacy_decode_failed = 0x7f0c000a;
 		public static final int zxinglegacy_decode_succeeded = 0x7f0c000b;
-		public static final int zxinglegacy_done_button = 0x7f0c0034;
-		public static final int zxinglegacy_help_contents = 0x7f0c0033;
-		public static final int zxinglegacy_image_view = 0x7f0c0032;
+		public static final int zxinglegacy_done_button = 0x7f0c0035;
+		public static final int zxinglegacy_help_contents = 0x7f0c0034;
+		public static final int zxinglegacy_image_view = 0x7f0c0033;
 		public static final int zxinglegacy_launch_product_query = 0x7f0c000c;
-		public static final int zxinglegacy_meta_text_view = 0x7f0c002d;
-		public static final int zxinglegacy_preview_view = 0x7f0c0025;
+		public static final int zxinglegacy_meta_text_view = 0x7f0c002e;
+		public static final int zxinglegacy_preview_view = 0x7f0c0026;
 		public static final int zxinglegacy_quit = 0x7f0c000d;
 		public static final int zxinglegacy_restart_preview = 0x7f0c000e;
-		public static final int zxinglegacy_result_button_view = 0x7f0c0030;
-		public static final int zxinglegacy_result_view = 0x7f0c0027;
+		public static final int zxinglegacy_result_button_view = 0x7f0c0031;
+		public static final int zxinglegacy_result_view = 0x7f0c0028;
 		public static final int zxinglegacy_return_scan_result = 0x7f0c000f;
-		public static final int zxinglegacy_status_view = 0x7f0c0031;
-		public static final int zxinglegacy_time_text_view = 0x7f0c002b;
-		public static final int zxinglegacy_type_text_view = 0x7f0c002a;
-		public static final int zxinglegacy_viewfinder_view = 0x7f0c0026;
+		public static final int zxinglegacy_status_view = 0x7f0c0032;
+		public static final int zxinglegacy_time_text_view = 0x7f0c002c;
+		public static final int zxinglegacy_type_text_view = 0x7f0c002b;
+		public static final int zxinglegacy_viewfinder_view = 0x7f0c0027;
 	}
 	public static final class layout {
 		public static final int zxinglegacy_capture = 0x7f030006;

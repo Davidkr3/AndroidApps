@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.pm.PackageManager;
 import android.hardware.Camera;
+import android.view.Display;
 import android.widget.FrameLayout;
 
 import com.google.zxing.BinaryBitmap;
@@ -14,6 +15,7 @@ import com.google.zxing.Result;
 import com.google.zxing.common.HybridBinarizer;
 
 import model.CameraPreview;
+import model.HoverView;
 import uab.tfg.pricechecker.R;
 
 /**
@@ -62,7 +64,7 @@ public class MyCamera {
         mCamera.setDisplayOrientation(90); //c�mera vertical
     }
 
-    public void initializeCamera(Activity activity){
+    public void initializeCamera(Activity activity, HoverView mHoverView, Display display){
         // Create an instance of MyCamera
         //vigilar que no sigui null!!!!!!!!!!!!!!!!
         //SEMPRE CAL COMPROVAR O PETA
@@ -73,6 +75,8 @@ public class MyCamera {
         }
         // Create our Preview view and set it as the content of our activity.
         mPreview = new CameraPreview(activity, mCamera);
+        mHoverView.update(display.getWidth(), display.getHeight());
+        mPreview.setArea(mHoverView.getHoverLeft(), mHoverView.getHoverTop(), mHoverView.getHoverAreaWidth(), display.getWidth());
         //asociem el frame layout al preview de la c�mera
         FrameLayout preview = (FrameLayout) activity.findViewById(R.id.camera_preview);
         preview.addView(mPreview);
@@ -92,7 +96,7 @@ public class MyCamera {
             c = android.hardware.Camera.open(); // obtenim una inst�ncia de la c�mera
         }
         catch (Exception e){
-            System.out.println("C�MERA NO DISPONIBLE");
+            System.out.println("CMERA NO DISPONIBLE");
         }
         return c;
     }
